@@ -1,12 +1,12 @@
 <?php
 	// get the hours and hourly rate from text field
-	$Base = $_POST['base'];
-	$Height = $_POST['height'];
-  $Length = $_POST['length'];
+	$Side_a = $_POST['side_a'];
+	$Side_b = $_POST['side_b'];
+  $Height = $_POST['height'];
 ?>
 <?php
 	// calculate the volume
-	$volume = ($Base * $Height * $Length)/2
+	$volume = (1/6) * $Side_a * $Side_b * $Height
 ?>
 <?php
   $volume = number_format($volume, 3);
