@@ -13,5 +13,5 @@
 ?>
 
 <h3>Results:</h3>
-The volume is <?php echo "$volume" ?> cm<sup>2</sup>.
+The volume is <?php echo "$volume" ?> cm<sup>3</sup>.
 </div>
